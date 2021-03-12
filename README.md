@@ -2,7 +2,7 @@
 
 This is a template hero type site. Big hero section with a side nav. This project is ripped from Brad Traversy. He did wonderful work and I agree that the template is a great idea. I should have more, so I grabbed this one and made some changes. Here is a link to that video. [Brad Traversy](https://youtu.be/8MgpE2DTTKA). This template features a side nav menu and typical hero CTA info.
 
-[img](https://github.com/Developer3027/hero-video/glynn_coco_20210312_023507.png)
+[img](https://github.com/Developer3027/hero-video/blob/main/glynn_coco_20210312_023507.png)
 
 In addition, Brad used a video and a overlay using blend modes in css to amplify the video. I used the same approach, just different feel. I also included audio and included a small equalizer for a visual.
 
