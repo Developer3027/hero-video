@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Info</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Music Found</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="Pexels Videos 2112426.mp4" muted loop autoplay></video>
+
+    <div class="overlay"></div>
+    <div class="toSmall">Screen is to small. Try turning your device on it's side.</div>
+    <div class="text">
+      <h2>Wage War</h2>
+      <h3>Page Information</h3>
+      
+      <p>The general page foundation came from Brad Traversy. The general eq came from special agent squeaky. The video background is from Pexel - Suzy Hazelwood. The song is from Soundcloud - Glynn Coco. You should check these out.</p>
+      <p>I have set this page up as a template for other projects. Page styling continues. I modified the song with skips and vinyl static. Audio context required user interaction, looking into automatic resume upon suspend. If one has trouble playing the song, the context has been paused and needs to be resumed. Click the yellow button and alert will notify of resume.</p>
+        
+    </div>
+      <ul class="social">
+        <li><a href=""><img src="facebook-f-brands.png" alt=""></a></li>
+        <li><a href=""><img src="instagram-brands.png" alt=""></a></li>
+        <li><a href=""><img src="twitter-brands.png" alt=""></a></li>
+      </ul>
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="info.html">Info</a></li>
+      <li><a href="https://soundcloud.com/glynncoco">Glynn Coco</a></li>
+    </ul>
+  </div>
+
+</body>
+
+<script>
+  const menuToggle = document.querySelector('.toggle')
+  const showcase = document.querySelector('.showcase')
+
+  menuToggle.addEventListener('click', function() {
+    menuToggle.classList.toggle('active')
+    showcase.classList.toggle('active')
+  })
+</script>
+</html>
